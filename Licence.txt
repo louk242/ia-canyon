@@ -1,0 +1,19 @@
+Licence d'utilisation du projet "AI Project Recommender"
+
+Copyright (c) 2025 [Ton Nom ou Pseudo]
+
+Ce projet est fourni gratuitement à des fins personnelles et commerciales.
+
+Vous avez le droit :
+- d’utiliser ce projet dans vos propres produits ou services
+- de le modifier selon vos besoins
+- de le vendre sur des plateformes comme CodeCanyon, à condition d'apporter une valeur ajoutée
+
+Vous n’avez PAS le droit :
+- de le redistribuer tel quel sans modification significative
+- de supprimer le nom de l’auteur d’origine si le code est repris
+
+L’auteur ne peut être tenu responsable des dommages directs ou indirects liés à l’utilisation de ce projet.
+
+Version : 1.0
+Date : Mai 2025

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>IA Idées de Projets - CodeCanyon</title>
+  <style> 
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f0f8ff, #e1f5fe);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1s ease;
+    }
+    h1 {
+      text-align: center;
+      color: #01579b;
+      margin-bottom: 30px;
+    }
+
+    form {
+      margin-bottom: 30px;
+    }
+
+    .competences-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .competence-option {
+      background: #e1f5fe;
+      border: 2px solid transparent;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .competence-option:hover {
+      background-color: #b3e5fc;
+      border-color: #0288d1;
+      transform: scale(1.05);
+    }
+
+    .competence-option input {
+      margin-right: 8px;
+    }
+
+    button {
+      display: block;
+      margin: 30px auto 0;
+      padding: 14px 30px;
+      background: #0288d1;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #0277bd;
+    }
+
+    .projet {
+      background: #f1f8e9;
+      padding: 20px;
+      margin-top: 20px;
+      border-left: 6px solid #cddc39;
+      border-radius: 6px;
+      animation: fadeUp 0.5s ease;
+    }
+
+    .projet h2 {
+      margin-top: 0;
+      color: #33691e;
+    }
+
+    .conseil {
+      background: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 15px;
+      margin-top: 25px;
+      border-radius: 5px;
+      animation: fadeUp 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media screen and (max-width: 600px) {
+      .competence-option {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Idées de projets personnalisées</h1>
+    <form method="POST">
+      <p style="text-align:center;"><strong>Sélectionne tes compétences :</strong></p>
+      <div class="competences-list">
+        {% for comp in ["python", "flask", "html", "css", "javascript", "api", "finance"] %}
+          <label class="competence-option">
+            <input type="checkbox" name="competences" value="{{ comp }}"> {{ comp }}
+          </label>
+        {% endfor %}
+      </div>
+      <button type="submit">🔍 Trouver des idées</button>
+    </form>
+
+    {% if conseils %}
+      <div class="conseil">
+        <strong>💡 Conseil de l'IA :</strong>
+        <p>{{ conseils }}</p>
+      </div>
+    {% endif %}
+
+    {% for idee in idees %}
+      <div class="projet">
+        <h2>{{ idee.titre }}</h2>
+        <p>{{ idee.description }}</p>
+        <p><em>Compétences requises : {{ idee.competences | join(", ") }}</em></p>
+      </div>
+    {% endfor %}
+  </div>
+</body>
+</html>

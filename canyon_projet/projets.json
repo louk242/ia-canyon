@@ -1,0 +1,80 @@
+[
+  {
+    "titre": "WhatsMark – Plateforme de Marketing WhatsApp avec IA",
+    "description": "Outil SaaS pour automatiser les campagnes WhatsApp avec bots, envois groupés et intégration IA.",
+    "competences": ["javascript", "api", "ai", "marketing"],
+    "categorie": "tendance"
+  },
+  {
+    "titre": "Rocket LMS – Système de Gestion de Cours",
+    "description": "Plateforme LMS complète pour vendre des cours en ligne avec support vidéo et plugins.",
+    "competences": ["php", "laravel", "e-learning"],
+    "categorie": "populaire"
+  },
+  {
+    "titre": "Ecommet – Plateforme E-commerce Multi-locataires",
+    "description": "Solution SaaS pour créer des boutiques en ligne en marque blanche avec gestion multi-boutiques.",
+    "competences": ["php", "laravel", "ecommerce", "saas"],
+    "categorie": "rentable"
+  },
+  {
+    "titre": "FluentBot – Intégration ChatGPT pour WhatsApp",
+    "description": "Plugin permettant d'intégrer ChatGPT à WhatsApp avec support vocal et interface SaaS.",
+    "competences": ["node.js", "api", "ai", "messagerie"],
+    "categorie": "tendance"
+  },
+  {
+    "titre": "Perfex CRM – CRM Open Source Puissant",
+    "description": "Outil de gestion client avec modules de facturation, tickets, et suivi de projet.",
+    "competences": ["php", "codeigniter", "crm"],
+    "categorie": "populaire"
+  },
+  {
+    "titre": "Olance – Marketplace de Freelance Global",
+    "description": "Plateforme de mise en relation freelance avec gestion des projets et paiements sécurisés.",
+    "competences": ["php", "laravel", "marketplace"],
+    "categorie": "rentable"
+  },
+  {
+    "titre": "Aivana – Application de Fonds d'Écran IA",
+    "description": "Application mobile générant des fonds d'écran HD à l'aide de l'IA avec chat intégré.",
+    "competences": ["flutter", "ai", "mobile"],
+    "categorie": "tendance"
+  },
+  {
+    "titre": "ERPGo SaaS – ERP Tout-en-Un pour Entreprises",
+    "description": "Solution ERP avec modules de gestion de projet, comptabilité, RH, CRM et POS.",
+    "competences": ["php", "laravel", "erp", "saas"],
+    "categorie": "rentable"
+  },
+  {
+    "titre": "WorkDo Dash SaaS – ERP Open Source Multi-espaces",
+    "description": "ERP open source avec gestion multi-espaces de travail pour les entreprises.",
+    "competences": ["php", "laravel", "erp", "saas"],
+    "categorie": "populaire"
+  },
+  {
+    "titre": "Vdemy – Plateforme de Vente de Cours à la Demande",
+    "description": "Système LMS pour vendre des cours en ligne avec interface utilisateur moderne.",
+    "competences": ["php", "laravel", "e-learning"],
+    "categorie": "tendance"
+  },
+  {
+    "titre": "QR Code Generator – Générateur de QR Codes en ligne",
+    "description": "Application simple permettant aux utilisateurs de créer des QR codes personnalisés.",
+    "competences": ["html", "css", "javascript"],
+    "categorie": "simple"
+  },
+  {
+    "titre": "Note App – Application de prise de notes locale",
+    "description": "App légère pour prendre et sauvegarder des notes dans le navigateur.",
+    "competences": ["javascript"],
+    "categorie": "simple"
+  },
+  {
+    "titre": "ToDo List – Gestionnaire de tâches simple",
+    "description": "Application responsive pour gérer ses tâches avec filtres et stockage local.",
+    "competences": ["html", "css", "javascript"],
+    "categorie": "simple"
+  }
+]
